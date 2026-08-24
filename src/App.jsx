@@ -1,4 +1,20 @@
 import { useState } from "react";
+import poulet from "../img/poulet.jpg";
+import boeuf from "../img/boeuf.jpg";
+import tilapia from "../img/tilapia.jpg";
+import pouletMayo from "../img/poulet_mayo.jpg";
+import michopo from "../img/michopo.jpg";
+import ndakala from "../img/ndakala.jpg";
+import coca from "../img/coca.jpg";
+import fanta from "../img/fanta.webp";
+import patisserie from "../img/Patisserie.webp";
+import potage_v from "../img/potage_v.jpg";
+import potage from "../img/potage.png";
+import creme from "../img/creme.jpg";
+import eau from "../img/eau.jpg";
+import lunch from "../img/launch_pack_img.jpeg";
+import kitoyo from "../img/kitoyo.jpg";
+
 import "./App.css";
 
 const categories = [
@@ -18,7 +34,7 @@ const dishes = [
     description: "Poulet tendre, grillet ou a la sauce avec accompagnement.",
     price: 12,
     category: "Plats Complets",
-    image: "/img/poulet.jpg",
+    image: poulet,
   },
   {
     id: 2,
@@ -26,7 +42,7 @@ const dishes = [
     description: "Fretins a la sauce avec accompagnement.",
     price: 12,
     category: "Plats Complets",
-    image: "/img/ndakala.jpg",
+    image: ndakala,
   },
   {
     id: 3,
@@ -34,7 +50,7 @@ const dishes = [
     description: "Beauf fri ou a la suace avec accompagement.",
     price: 12,
     category: "Plats Complets",
-    image: "/img/boeuf.jpg",
+    image: boeuf,
   },
   {
     id: 4,
@@ -42,7 +58,7 @@ const dishes = [
     description: "Viande de chevre grillée.",
     price: 18,
     category: "Grillades",
-    image: "/img/michopo.jpg",
+    image: michopo,
   },
   {
     id: 5,
@@ -50,7 +66,7 @@ const dishes = [
     description: "Tilapia grillé; fri ou a la sauce avec accompagnement.",
     price: 15,
     category: "Plats Complets",
-    image: "/img/tilapia.jpg",
+    image: tilapia,
   },
   {
     id: 6,
@@ -58,7 +74,7 @@ const dishes = [
     description: "A base des pommes de terre et legumes.",
     price: 9,
     category: "Entrées",
-    image: "/img/potage_v.jpg",
+    image: potage_v,
   },
   {
     id: 7,
@@ -74,7 +90,7 @@ const dishes = [
     description: "Rich chocolate cake served with vanilla ice cream.",
     price: 6,
     category: "Desserts",
-    image: "/img/patisserie.webp",
+    image: patisserie,
   },
   {
     id: 9,
@@ -82,7 +98,7 @@ const dishes = [
     description: "Tender grilled chicken served with fries and fresh salad.",
     price: 12,
     category: "Plats Complets",
-    image: "/img/kitoyo.jpg",
+    image: kitoyo,
   },
 
   {
@@ -91,7 +107,7 @@ const dishes = [
     description: "2 Pains + 1 Sardine + 1 Jus + 1 Fruit.",
     price: 3,
     category: "Lunch Pack",
-    image: "/img/launch_pack_img.jpeg"
+    image: lunch,
   },
 
   {
@@ -100,7 +116,7 @@ const dishes = [
     description: "Freshly prepared natural mango juice.",
     price: 1.5,
     category: "Boissons",
-    image: "/img/coca.jpg",
+    image: coca,
   },
   {
     id: 12,
@@ -108,7 +124,7 @@ const dishes = [
     description: "Freshly prepared natural mango juice.",
     price: 1.5,
     category: "Boissons",
-    image: "/img/fanta.webp",
+    image: fanta,
   },
   {
     id: 13,
@@ -116,7 +132,7 @@ const dishes = [
     description: "Freshly prepared natural mango juice.",
     price: 0.5,
     category: "Boissons",
-    image: "/img/eau.jpg",
+    image: eau,
   },
   {
     id: 14,
@@ -124,7 +140,7 @@ const dishes = [
     description: "A base des pommes de terre et legumes et Viande de porc.",
     price: 7,
     category: "Entrées",
-    image: "/img/potage.png",
+    image: potage,
   },
   {
     id: 15,
@@ -132,7 +148,7 @@ const dishes = [
     description: "Rich chocolate cake served with vanilla ice cream.",
     price: 6,
     category: "Desserts",
-    image: "/img/creme.jpg",
+    image: creme,
   },
   {
     id: 16,
@@ -140,7 +156,7 @@ const dishes = [
     description: "Poulet grillée à la sauce mayonnaise.",
     price: 18,
     category: "Grillades",
-    image: "/img/poulet_mayo.jpg",
+    image: pouletMayo,
   },
 ];
 
